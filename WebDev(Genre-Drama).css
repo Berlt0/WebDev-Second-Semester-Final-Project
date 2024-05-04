@@ -1,0 +1,366 @@
+
+body{
+    background-color: white;
+    padding: 0;
+    margin: 0;
+}
+
+header{
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 10px;
+    background-color: #333A73;
+    margin: 0;
+    height: 110px;
+}
+
+.Logo{
+    margin: 5px 0 0 20px;
+    width: 130px; 
+    height: 55px;
+    padding: 10px;
+}
+
+.search_class{
+    width: 450px;
+    height: 40px;
+    margin: 20px 50px 0 270px;
+    padding: 0 10px 0 20px;
+    font-size: 16px;
+    border-radius: 30px;
+    border: none;
+}
+
+
+.subs{
+        font-size: 18px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+        color: white;
+        background-color: #FBA834;
+        border-radius: 30px;
+        width: 120px;
+        height: 25px;
+        margin: 20px 0 0 270px;
+        padding: 8px 5px 5px 5px;
+        text-align: center;
+    }
+
+    nav{
+        margin-left: 520px;
+    }
+
+    nav a{
+        display: inline-block;
+        color:white;
+        margin-right: 15px;
+        margin-bottom: 10px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 15px;
+        text-decoration: none;
+        font-weight: bold;
+    }
+
+    .Treding{
+        font-family: 'Times New Roman', Times, serif;
+        font-weight: 200;
+        font-size: 5vh;
+        margin: 30px 0 0 40px;
+        display: block;
+    }
+
+.container_of_all_movie_poster{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex-grow: inherit;
+    flex-shrink: inherit;
+}
+
+    .first_container{
+        margin: 30px 0 0 70px;
+        width: 200px;
+        height: 400px;
+        padding:10px;
+        height: 300px;
+        
+    }
+
+    .second_container,.third_container,.fourth_container,.fifth_container{
+        margin: 30px 0 0 30px;
+        width: 200px;
+        height: 400px;
+        padding:10px;
+        height: 300px;
+        
+    }
+
+
+    .hd{
+        position: relative; 
+        font-family: Arial, Helvetica, sans-serif; 
+        font-size: 12px;
+        background-color: white; 
+        border-radius: 5px;
+        width: 25px;
+        padding: 5px; 
+        top: 35px;
+        right: 1045px;
+        width: 17px;
+        height: 13px;
+        font-weight: bold;
+    }
+
+    .hd2{
+        position: relative; 
+        font-family: Arial, Helvetica, sans-serif; 
+        font-size: 12px;
+        background-color: white; 
+        border-radius: 5px;
+        width: 25px;
+        padding: 5px; 
+        top: 35px;
+        right: 823px;
+        width: 17px;
+        height: 13px;
+        font-weight: bold;
+    }
+
+    .hd3{
+        position: relative; 
+        font-family: Arial, Helvetica, sans-serif; 
+        font-size: 12px;
+        background-color: white; 
+        border-radius: 5px;
+        width: 25px;
+        padding: 5px; 
+        bottom: 315px;
+        left: 745px;
+        width: 17px;
+        height: 13px;
+        font-weight: bold;
+    }
+
+    .hd4{
+        position: relative; 
+        font-family: Arial, Helvetica, sans-serif; 
+        font-size: 12px;
+        background-color: white; 
+        border-radius: 5px;
+        width: 25px;
+        padding: 5px; 
+        bottom: 315px;
+        left: 968px;
+        width: 17px;
+        height: 13px;
+        font-weight: bold;
+    }
+
+    .hd5{
+        position: relative; 
+        font-family: Arial, Helvetica, sans-serif; 
+        font-size: 12px;
+        background-color: white; 
+        border-radius: 5px;
+        width: 25px;
+        padding: 5px; 
+        bottom: 315px;
+        left: 1191px;
+        width: 17px;
+        height: 13px;
+        font-weight: bold;
+    }
+
+    .container_of_second_batch_movie_posters{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        flex-grow: inherit;
+        flex-shrink: inherit;
+        margin: 0 0 0 40px;
+    }
+    
+
+    .sixth_container,.seventh_container,.eight_container,.nineth_container,.tenth_container,.eleventh_container,.twelveth_container,.therteenth_container,.fourteenth_container,.fifteenth_container{
+        margin: 50px 0 0 30px;
+        width: 200px;
+        height: 400px;
+        padding:10px;
+        height: 300px;
+        
+    }
+
+
+    .hd6{
+        position: relative; 
+        font-family: Arial, Helvetica, sans-serif; 
+        font-size: 12px;
+        background-color: white; 
+        border-radius: 5px;
+        width: 25px;
+        padding: 5px; 
+        top: 55px;
+        right: 1045px;
+        width: 17px;
+        height: 13px;
+        font-weight: bold;
+    }
+
+    .hd7{
+        position: relative; 
+        font-family: Arial, Helvetica, sans-serif; 
+        font-size: 12px;
+        background-color: white; 
+        border-radius: 5px;
+        width: 25px;
+        padding: 5px; 
+        top: 55px;
+        right: 823px;
+        width: 17px;
+        height: 13px;
+        font-weight: bold;
+    }
+
+    .hd8{
+        position: relative; 
+        font-family: Arial, Helvetica, sans-serif; 
+        font-size: 12px;
+        background-color: white; 
+        border-radius: 5px;
+        width: 25px;
+        padding: 5px; 
+        bottom: 315px;
+        left: 955px;
+        width: 17px;
+        height: 13px;
+        font-weight: bold;
+    }
+
+    .hd9{
+        position: relative; 
+        font-family: Arial, Helvetica, sans-serif; 
+        font-size: 12px;
+        background-color: white; 
+        border-radius: 5px;
+        width: 25px;
+        padding: 5px; 
+        bottom: 315px;
+        left: 680px;
+        width: 17px;
+        height: 13px;
+        font-weight: bold;
+    }
+
+    .hd10{
+        position: relative; 
+        font-family: Arial, Helvetica, sans-serif; 
+        font-size: 12px;
+        background-color: white; 
+        border-radius: 5px;
+        width: 25px;
+        padding: 5px; 
+        bottom: 315px;
+        left: 1150px;
+        width: 17px;
+        height: 13px;
+        font-weight: bold;
+    }
+
+    .container_of_third_batch_movie_posters{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        flex-grow: inherit;
+        flex-shrink: inherit;
+        margin: 0 0 70px 40px;
+    }
+    
+    .hd11{
+        position: relative; 
+        font-family: Arial, Helvetica, sans-serif; 
+        font-size: 12px;
+        background-color: white; 
+        border-radius: 5px;
+        width: 25px;
+        padding: 5px; 
+        top:  55px;
+        right: 1043px;
+        width: 17px;
+        height: 13px;
+        font-weight: bold;
+    }
+
+    .hd12{
+        position: relative; 
+        font-family: Arial, Helvetica, sans-serif; 
+        font-size: 12px;
+        background-color: white; 
+        border-radius: 5px;
+        width: 25px;
+        padding: 5px; 
+        top:  55px;
+        right: 820px;
+        width: 17px;
+        height: 13px;
+        font-weight: bold;
+    }
+
+    .hd13{
+        position: relative; 
+        font-family: Arial, Helvetica, sans-serif; 
+        font-size: 12px;
+        background-color: white; 
+        border-radius: 5px;
+        width: 25px;
+        padding: 5px; 
+        bottom:  315px;
+        left: 705px;
+        width: 17px;
+        height: 13px;
+        font-weight: bold;
+    }
+
+    .hd14{
+        position: relative; 
+        font-family: Arial, Helvetica, sans-serif; 
+        font-size: 12px;
+        background-color: white; 
+        border-radius: 5px;
+        width: 25px;
+        padding: 5px; 
+        bottom:  315px;
+        left: 928px;
+        width: 17px;
+        height: 13px;
+        font-weight: bold;
+    }
+
+    .hd15{
+        position: relative; 
+        font-family: Arial, Helvetica, sans-serif; 
+        font-size: 12px;
+        background-color: white; 
+        border-radius: 5px;
+        width: 25px;
+        padding: 5px; 
+        bottom:  315px;
+        left: 1153px;
+        width: 17px;
+        height: 13px;
+        font-weight: bold;
+    }
+
+    footer{
+        width: 100%;
+        height: 170px;
+        background-color: #333A73;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .social_media_platform_logos{
+        margin-left: 1200px;
+    }

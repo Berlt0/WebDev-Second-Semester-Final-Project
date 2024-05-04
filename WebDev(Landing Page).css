@@ -1,0 +1,79 @@
+
+body{
+
+background-color: #333A73;
+margin: 0;
+padding: 0;
+position: relative;
+
+}
+
+&::before{
+    content:  ' ';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    opacity: .2;
+    background-image: url(Cap.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 10px;
+}
+
+.Logo{
+    margin: 5px 0 0 20px;
+    width: 140px; 
+    height: 60px;
+}
+
+.subs{
+        font-size: 18px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+        color: white;
+        background-color: #FBA834;
+        border-radius: 30px;
+        width: 120px;
+        height: 25px;
+        margin: 10px 0 0 1060px;
+        padding: 8px 5px 5px 5px;
+        text-align: center;
+    }
+
+
+.search_class{
+    width: 700px;
+    height: 50px;
+    margin: 20px 10px 0 340px;
+    padding-left: 30px;
+    font-size: 18px;
+    border-radius: 30px;
+    border: none;
+    display: block;
+}
+
+.view_site_button{
+    margin: 20px 10px 0 620px;
+    border-radius: 50px;
+    border: solid 3px white;
+    background-color: #FBA834;
+    width: 150px;
+    height: 50px;
+    font-size: 18px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    cursor: pointer;
+
+}
+
+
